@@ -27,9 +27,9 @@ public class ProyectoFinalSchedule
     public static void main(String[] args)
     {
         usuarios[0][0] = "AllissonAlejandra";
-        usuarios[0][1] = "Laesnupi69";
-        usuarios[1][0] = "Huevitoskk";
-        usuarios[1][1] = "Soyestupido";
+        usuarios[0][1] = "Meldrnts";
+        usuarios[1][0] = "Marvin01";
+        usuarios[1][1] = "ZamudioPerez";
         contadorUsuarios = 2;
 
         boolean ejecutar = true;
