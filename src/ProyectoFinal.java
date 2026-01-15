@@ -26,11 +26,22 @@ public class ProyectoFinal
 
     public static void main(String[] args)
     {
-        usuarios[0][0] = "AllissonAlejandra";
-        usuarios[0][1] = "Meldrnts";
-        usuarios[1][0] = "Marvin01";
-        usuarios[1][1] = "ZamudioPerez";
-        contadorUsuarios = 2;
+        usuarios[0][0] = "AllissonMichelle";
+        usuarios[0][1] = "ALL1S0N";
+        usuarios[1][0] = "Marvin Aguilar";
+        usuarios[1][1] = "MARV1N99";
+        usuarios[2][0] = "Mel Dorantes"
+        usuarios[2][1] = "M3L1SSAD0R"
+        usuarios[3][0] = "Ashley Medina"
+        usuarios[3][1] = "L3X4SHL3Y"
+        usuarios[4][0] = "Maria Perez"
+        usuarios[4][1] = "JOS3H0LA"
+        usuarios[5][0] = "Juanitopro14"
+        usuarios[5][1] = "AL1M4N433"
+        usuarios[6][0] = "Cristiano Ronaldo"
+        usuarios[6][1] = "CR7M3SS1"
+            
+        contadorUsuarios = 7;
 
         boolean ejecutar = true;
         while (ejecutar)
