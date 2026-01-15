@@ -1,4 +1,5 @@
- import java.util.Scanner;
+//Esqueleto de menú (Marvin)
+import java.util.Scanner;
 
     public class Menú
     {
