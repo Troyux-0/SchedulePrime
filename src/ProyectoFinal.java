@@ -42,7 +42,7 @@ public class ProyectoFinal
         usuarios[6][1] = "CR7M3SS1"
             
         contadorUsuarios = 7;
-
+//Sección de Usuario (Marvin)
         boolean ejecutar = true;
         while (ejecutar)
         {
@@ -820,7 +820,7 @@ public class ProyectoFinal
             }
         }
     }
-
+//Módulo de caledario (Marvin)
     public static void calendario()
     {
         int usuarioIndice = obtenerIndiceUsuarioActual();
