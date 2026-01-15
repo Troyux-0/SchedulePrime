@@ -1,3 +1,4 @@
+//Esqueleto del módulo horario (Marvin)
 import java.util.Scanner;
 
 public class ModuloHorario
@@ -165,6 +166,3 @@ public class ModuloHorario
             }
         }
     }
-
-
-
