@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -48,7 +49,27 @@ public class ProyectoFinal
         {
             while (usuarioActual == null)
             {
-                System.out.println("=== BIENVENID@ ===");
+            System.out.print(
+                            "    \n" +
+                            "    \n" +
+                            "   ███████╗ ██████╗██╗  ██╗███████╗██████╗ ██╗   ██╗██╗     ███████╗\n" +
+                            "   ██╔════╝██╔════╝██║  ██║██╔════╝██╔══██╗██║   ██║██║     ██╔════╝\n" +
+                            "   ███████╗██║     ███████║█████╗  ██║  ██║██║   ██║██║     █████╗  \n" +
+                            "   ╚════██║██║     ██╔══██║██╔══╝  ██║  ██║██║   ██║██║     ██╔══╝  \n" +
+                            "   ███████║╚██████╗██║  ██║███████╗██████╔╝╚██████╔╝███████╗███████╗\n" +
+                            "     ╚══════╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═════╝  ╚═════╝ ╚══════╝╚══════╝\n" +
+                            "     \n" +
+                            "   ██████╗ ██████╗ ██╗███╗   ███╗███████╗\n" +
+                            "   ██╔══██╗██╔══██╗██║████╗ ████║██╔════╝\n" +
+                            "   ██████╔╝██████╔╝██║██╔████╔██║█████╗  \n" +
+                            "   ██╔═══╝ ██╔══██╗██║██║╚██╔╝██║██╔══╝  \n" +
+                            "   ██║     ██║  ██║██║██║ ╚═╝ ██║███████╗\n" +
+                            "   ╚═╝     ╚═╝  ╚═╝╚═╝╚═╝     ╚═╝╚══════╝\n" +
+                            "       \n" +
+                            "     =============================================\n" +
+                            "     Sistema de Gestión de Tareas y Planificación\n" +
+                            "     =============================================\n" );
+
                 System.out.println("1. Iniciar sesión");
                 System.out.println("2. Registrar nuevo usuario");
                 System.out.println("3. Salir del programa");
@@ -65,6 +86,12 @@ public class ProyectoFinal
                 {
                     case 1:
                         limpiarPantalla();
+                        System.out.println("\u001B[34m ██╗███╗   ██╗██╗ ██████╗██╗ █████╗ ██████╗     ███████╗███████╗███████╗██╗ ██████╗ ███╗   ██╗\u001B[0m");
+                        System.out.println("\u001B[34m ██║████╗  ██║██║██╔════╝██║██╔══██╗██╔══██╗    ██╔════╝██╔════╝██╔════╝██║██╔═══██╗████╗  ██║\u001B[0m");
+                        System.out.println("\u001B[34m ██║██╔██╗ ██║██║██║     ██║███████║██████╔╝    ███████╗█████╗  ███████╗██║██║   ██║██╔██╗ ██║\u001B[0m");
+                        System.out.println("\u001B[34m ██║██║╚██╗██║██║██║     ██║██╔══██║██╔══██╗    ╚════██║██╔══╝  ╚════██║██║██║   ██║██║╚██╗██║\u001B[0m");
+                        System.out.println("\u001B[34m ██║██║ ╚████║██║╚██████╗██║██║  ██║██║  ██║    ███████║███████╗███████║██║╚██████╔╝██║ ╚████║\u001B[0m");
+                        System.out.println("\u001B[34m ╚═╝╚═╝  ╚═══╝╚═╝ ╚═════╝╚═╝╚═╝  ╚═╝╚═╝  ╚═╝    ╚══════╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝\u001B[0m");
                         System.out.print("Ingresa tu nombre de usuario: ");
                         String usuarioIniciado = scanner.nextLine().trim();
                         System.out.print("Ingresa tu contraseña: ");
@@ -101,7 +128,12 @@ public class ProyectoFinal
 
                         while (true)
                         {
-                            System.out.println("=== Registro de Nuevo Usuario ===");
+                            System.out.println("\u001B[32m ██████╗ ███████╗ ██████╗ ██╗███████╗████████╗██████╗  ██████╗ \u001B[0m");
+                            System.out.println("\u001B[32m ██╔══██╗██╔════╝██╔════╝ ██║██╔════╝╚══██╔══╝██╔══██╗██╔═══██╗\u001B[0m");
+                            System.out.println("\u001B[32m ██████╔╝█████╗  ██║  ███╗██║███████╗   ██║   ██████╔╝██║   ██║\u001B[0m");
+                            System.out.println("\u001B[32m ██╔══██╗██╔══╝  ██║   ██║██║╚════██║   ██║   ██╔══██╗██║   ██║\u001B[0m");
+                            System.out.println("\u001B[32m ██║  ██║███████╗╚██████╔╝██║███████║   ██║   ██║  ██║╚██████╔╝\u001B[0m");
+                            System.out.println("\u001B[32m ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ \u001B[0m");
                             System.out.print("Ingresa el nombre de usuario: ");
                             usuario = scanner.nextLine().trim();
 
@@ -144,8 +176,6 @@ public class ProyectoFinal
 
                         while (true)
                         {
-                            limpiarPantalla();
-                            System.out.println("=== Registro de Nuevo Usuario ===");
                             System.out.println("Usuario seleccionado: " + usuario);
                             System.out.print("Crea una contraseña (mínimo 8 caracteres): ");
                             contraseña = scanner.nextLine();
@@ -172,7 +202,15 @@ public class ProyectoFinal
                         break;
 
                     case 3:
-                        System.out.println("Saliendo del programa...");
+                        System.out.println("   _____      _                   _        ");
+                        System.out.println("  / ____|     | (_)              | |       ");
+                        System.out.println(" | (___   __ _| |_  ___ _ __   __| | ___   ");
+                        System.out.println("  \\___ \\ / _` | | |/ _ \\ '_ \\ / _` |/ _ \\  ");
+                        System.out.println("  ____) | (_| | | |  __/ | | | (_| | (_) | ");
+                        System.out.println(" |_____/ \\__,_|_|_|\\___|_| |_|\\__,_|\\___/  ");
+                        System.out.println("    _________________________________   ");
+                        System.out.println("    ¡GRACIAS POR USAR SCHEDULE PRIME!   ");
+                        System.out.println("    _________________________________   ");
                         return;
 
                     default:
@@ -186,8 +224,14 @@ public class ProyectoFinal
             boolean continuar = true;
             while (continuar)
             {
-                System.out.println("\n===== MENÚ PRINCIPAL =====");
+                System.out.println("\u001B[36m ███╗   ███╗███████╗███╗   ██╗██╗   ██╗    ██████╗ ██████╗ ██╗███╗   ██╗ ██████╗ ██╗██████╗  █████╗ ██╗     \u001B[0m");
+                System.out.println("\u001B[36m ████╗ ████║██╔════╝████╗  ██║██║   ██║    ██╔══██╗██╔══██╗██║████╗  ██║██╔════╝ ██║██╔══██╗██╔══██╗██║     \u001B[0m");
+                System.out.println("\u001B[36m ██╔████╔██║█████╗  ██╔██╗ ██║██║   ██║    ██████╔╝██████╔╝██║██╔██╗ ██║██║      ██║██████╔╝███████║██║     \u001B[0m");
+                System.out.println("\u001B[36m ██║╚██╔╝██║██╔══╝  ██║╚██╗██║██║   ██║    ██╔═══╝ ██╔══██╗██║██║╚██╗██║██║      ██║██╔═══╝ ██╔══██║██║     \u001B[0m");
+                System.out.println("\u001B[36m ██║ ╚═╝ ██║███████╗██║ ╚████║╚██████╔╝    ██║     ██║  ██║██║██║ ╚████║╚██████╔╝██║██║     ██║  ██║███████║\u001B[0m");
+                System.out.println("\u001B[36m ╚═╝     ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═════╝     ╚═╝     ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝╚═╝     ╚═╝  ╚═╝╚══════╝\u001B[0m");
                 System.out.println("Usuario: " + usuarioActual);
+                System.out.println("¿ A que módulo deseas ingresar?");
                 System.out.println("1.-CALENDARIO");
                 System.out.println("2.-SALIR DEL PROGRAMA");
                 System.out.println("3.-HORARIO");
@@ -245,7 +289,12 @@ public class ProyectoFinal
     {
         while (true)
         {
-            System.out.println("\n===== MÓDULO SALIDA =====");
+            System.out.println("\u001B[31m ███╗   ███╗ ██████╗ ██████╗ ██╗   ██╗██╗      ██████╗     ██████╗ ███████╗    ███████╗ █████╗ ██╗     ██╗██████╗  █████╗ \u001B[0m");
+            System.out.println("\u001B[31m ████╗ ████║██╔═══██╗██╔══██╗██║   ██║██║     ██╔═══██╗    ██╔══██╗██╔════╝    ██╔════╝██╔══██╗██║     ██║██╔══██╗██╔══██╗\u001B[0m");
+            System.out.println("\u001B[31m ██╔████╔██║██║   ██║██║  ██║██║   ██║██║     ██║   ██║    ██║  ██║█████╗      ███████╗███████║██║     ██║██║  ██║███████║\u001B[0m");
+            System.out.println("\u001B[31m ██║╚██╔╝██║██║   ██║██║  ██║██║   ██║██║     ██║   ██║    ██║  ██║██╔══╝      ╚════██║██╔══██║██║     ██║██║  ██║██╔══██║\u001B[0m");
+            System.out.println("\u001B[31m ██║ ╚═╝ ██║╚██████╔╝██████╔╝╚██████╔╝███████╗╚██████╔╝    ██████╔╝███████╗    ███████║██║  ██║███████╗██║██████╔╝██║  ██║\u001B[0m");
+            System.out.println("\u001B[31m ╚═╝     ╚═╝ ╚═════╝ ╚═════╝  ╚═════╝ ╚══════╝ ╚═════╝     ╚═════╝ ╚══════╝    ╚══════╝╚═╝  ╚═╝╚══════╝╚═╝╚═════╝ ╚═╝  ╚═╝\u001B[0m");
             System.out.println("Usuario: " + usuarioActual);
             System.out.println("1. Cerrar Sesión ");
             System.out.println("2. Volver al Menú Principal");
@@ -289,9 +338,16 @@ public class ProyectoFinal
 
         while (continuar)
         {
-            System.out.println("\n===== MÓDULO HORARIO =====");
+            System.out.println("\u001B[33m ███╗   ███╗ ██████╗ ██████╗ ██╗   ██╗██╗      ██████╗     ██╗  ██╗ ██████╗ ██████╗  █████╗ ██████╗ ██╗ ██████╗ \u001B[0m");
+            System.out.println("\u001B[33m ████╗ ████║██╔═══██╗██╔══██╗██║   ██║██║     ██╔═══██╗    ██║  ██║██╔═══██╗██╔══██╗██╔══██╗██╔══██╗██║██╔═══██╗\u001B[0m");
+            System.out.println("\u001B[33m ██╔████╔██║██║   ██║██║  ██║██║   ██║██║     ██║   ██║    ███████║██║   ██║██████╔╝███████║██████╔╝██║██║   ██║\u001B[0m");
+            System.out.println("\u001B[33m ██║╚██╔╝██║██║   ██║██║  ██║██║   ██║██║     ██║   ██║    ██╔══██║██║   ██║██╔══██╗██╔══██║██╔══██╗██║██║   ██║\u001B[0m");
+            System.out.println("\u001B[33m ██║ ╚═╝ ██║╚██████╔╝██████╔╝╚██████╔╝███████╗╚██████╔╝    ██║  ██║╚██████╔╝██║  ██║██║  ██║██║  ██║██║╚██████╔╝\u001B[0m");
+            System.out.println("\u001B[33m ╚═╝     ╚═╝ ╚═════╝ ╚═════╝  ╚═════╝ ╚══════╝ ╚═════╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝ ╚═════╝ \u001B[0m");
+            System.out.println("________________________________________________________________________________________________________________");
+            System.out.println("                                    HORARIO PERSONALIZABLE                                                      ");
+            System.out.println("________________________________________________________________________________________________________________");
             System.out.println("Usuario: " + usuarioActual);
-            System.out.println("Horario personalizable");
             System.out.println("Actividades registradas: " + actividadesActuales);
             System.out.println("Presiona la tecla Enter para continuar.");
             scanner.nextLine();
@@ -315,7 +371,7 @@ public class ProyectoFinal
                     if (actividadesActuales < maxActividades)
                     {
                         limpiarPantalla();
-                        System.out.println("INGRESO DE ACTIVIDAD AL HORARIO");
+                        ingreso();
                         System.out.println("Actividades registradas: " + actividadesActuales);
                         String diaIngresado;
                         boolean diaOk = false;
@@ -379,7 +435,7 @@ public class ProyectoFinal
 
                 case 2:
                     limpiarPantalla();
-                    System.out.println("GESTIÓN DE ACTIVIDADES DEL HORARIO");
+                    gestion();
                     System.out.println("1.-Ver horario por fecha de registro");
                     System.out.println("2.-Añadir/modificar notas a actividad existente");
                     System.out.println("3.-Ver horario gráfico por proximidad");
@@ -397,7 +453,10 @@ public class ProyectoFinal
                             limpiarPantalla();
                             if (actividadesActuales > 0)
                             {
-                                System.out.println("=== HORARIO COMPLETO de " + usuarioActual + " ===");
+                                System.out.println("______________________________________________________________");
+                                System.out.println("                 HORARIO COMPLETO DE " + usuarioActual);
+                                System.out.println("--------------------------------------------------------------");
+
                                 for (int i = 0; i < actividadesActuales; i++)
                                 {
                                     System.out.println("Indice -" + (i + 1));
@@ -620,6 +679,7 @@ public class ProyectoFinal
                 case 4:
                     continuar = false;
                     System.out.println("Saliendo del Módulo Horario....");
+                    limpiarPantalla();
                     break;
 
                 default:
@@ -632,6 +692,27 @@ public class ProyectoFinal
                     break;
             }
         }
+    }
+
+    private static void ingreso()
+    {
+        System.out.println("\u001B[35m ██╗███╗   ██╗ ██████╗ ██████╗ ███████╗███████╗ ██████╗     ██████╗ ███████╗     █████╗  ██████╗████████╗██╗██╗   ██╗██╗██████╗  █████╗ ██████╗ \u001B[0m");
+        System.out.println("\u001B[35m ██║████╗  ██║██╔════╝ ██╔══██╗██╔════╝██╔════╝██╔═══██╗    ██╔══██╗██╔════╝    ██╔══██╗██╔════╝╚══██╔══╝██║██║   ██║██║██╔══██╗██╔══██╗██╔══██╗\u001B[0m");
+        System.out.println("\u001B[35m ██║██╔██╗ ██║██║  ███╗██████╔╝█████╗  ███████╗██║   ██║    ██║  ██║█████╗      ███████║██║        ██║   ██║██║   ██║██║██║  ██║███████║██║  ██║\u001B[0m");
+        System.out.println("\u001B[35m ██║██║╚██╗██║██║   ██║██╔══██╗██╔══╝  ╚════██║██║   ██║    ██║  ██║██╔══╝      ██╔══██║██║        ██║   ██║╚██╗ ██╔╝██║██║  ██║██╔══██║██║  ██║\u001B[0m");
+        System.out.println("\u001B[35m ██║██║ ╚████║╚██████╔╝██║  ██║███████╗███████║╚██████╔╝    ██████╔╝███████╗    ██║  ██║╚██████╗   ██║   ██║ ╚████╔╝ ██║██████╔╝██║  ██║██████╔╝\u001B[0m");
+        System.out.println("\u001B[35m ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝ ╚═════╝     ╚═════╝ ╚══════╝    ╚═╝  ╚═╝ ╚═════╝   ╚═╝   ╚═╝  ╚═══╝  ╚═╝╚═════╝ ╚═╝  ╚═╝╚═════╝ \u001B[0m");
+
+    }
+
+    private static void gestion()
+    {
+        System.out.println("\u001B[36m  ██████╗ ███████╗███████╗████████╗██╗ ██████╗ ███╗   ██╗    ██████╗ ███████╗     █████╗  ██████╗████████╗██╗██╗   ██╗██╗██████╗  █████╗ ██████╗ ███████╗\u001B[0m");
+        System.out.println("\u001B[36m ██╔════╝ ██╔════╝██╔════╝╚══██╔══╝██║██╔═══██╗████╗  ██║    ██╔══██╗██╔════╝    ██╔══██╗██╔════╝╚══██╔══╝██║██║   ██║██║██╔══██╗██╔══██╗██╔══██╗██╔════╝\u001B[0m");
+        System.out.println("\u001B[36m ██║  ███╗█████╗  ███████╗   ██║   ██║██║   ██║██╔██╗ ██║    ██║  ██║█████╗      ███████║██║        ██║   ██║██║   ██║██║██║  ██║███████║██║  ██║█████╗  \u001B[0m");
+        System.out.println("\u001B[36m ██║   ██║██╔══╝  ╚════██║   ██║   ██║██║   ██║██║╚██╗██║    ██║  ██║██╔══╝      ██╔══██║██║        ██║   ██║╚██╗ ██╔╝██║██║  ██║██╔══██║██║  ██║██╔══╝  \u001B[0m");
+        System.out.println("\u001B[36m ╚██████╔╝███████╗███████║   ██║   ██║╚██████╔╝██║ ╚████║    ██████╔╝███████╗    ██║  ██║╚██████╗   ██║   ██║ ╚████╔╝ ██║██████╔╝██║  ██║██████╔╝███████╗\u001B[0m");
+        System.out.println("\u001B[36m  ╚═════╝ ╚══════╝╚══════╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝    ╚═════╝ ╚══════╝    ╚═╝  ╚═╝ ╚═════╝   ╚═╝   ╚═╝  ╚═══╝  ╚═╝╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚══════╝\u001B[0m");
     }
 
     private static boolean debeIntercambiarHorarioProximidad(int usuarioIndice, int indice1, int indice2) {
@@ -831,7 +912,12 @@ public class ProyectoFinal
 
         while (continuar)
         {
-            System.out.println("\n===== MÓDULO CALENDARIO =====");
+            System.out.println(" ███╗   ███╗ ██████╗ ██████╗ ██╗   ██╗██╗      ██████╗      ██████╗ █████╗ ██╗     ███████╗███╗   ██╗██████╗  █████╗ ██████╗ ██╗ ██████╗ ");
+            System.out.println(" ████╗ ████║██╔═══██╗██╔══██╗██║   ██║██║     ██╔═══██╗    ██╔════╝██╔══██╗██║     ██╔════╝████╗  ██║██╔══██╗██╔══██╗██╔══██╗██║██╔═══██╗");
+            System.out.println(" ██╔████╔██║██║   ██║██║  ██║██║   ██║██║     ██║   ██║    ██║     ███████║██║     █████╗  ██╔██╗ ██║██║  ██║███████║██████╔╝██║██║   ██║");
+            System.out.println(" ██║╚██╔╝██║██║   ██║██║  ██║██║   ██║██║     ██║   ██║    ██║     ██╔══██║██║     ██╔══╝  ██║╚██╗██║██║  ██║██╔══██║██╔══██╗██║██║   ██║");
+            System.out.println(" ██║ ╚═╝ ██║╚██████╔╝██████╔╝╚██████╔╝███████╗╚██████╔╝    ╚██████╗██║  ██║███████╗███████╗██║ ╚████║██████╔╝██║  ██║██║  ██║██║╚██████╔╝");
+            System.out.println(" ╚═╝     ╚═╝ ╚═════╝ ╚═════╝  ╚═════╝ ╚══════╝ ╚═════╝      ╚═════╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═══╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝ ╚═════╝ ");
             System.out.println("Usuario: " + usuarioActual);
             System.out.println("Organización de días y fechas importantes");
             System.out.println("Actividades registradas: " + actividadesActuales);
@@ -857,7 +943,7 @@ public class ProyectoFinal
                     limpiarPantalla();
                     if (actividadesActuales < maxActividades)
                     {
-                        System.out.println("INGRESO DE ACTIVIDAD AL CALENDARIO");
+                        ingreso();
                         System.out.println("Actividades registradas: " + actividadesActuales);
 
                         int dia = 0, mes = 0, año = 0;
@@ -923,7 +1009,7 @@ public class ProyectoFinal
 
                 case 2:
                     limpiarPantalla();
-                    System.out.println("GESTIÓN DE ACTIVIDADES DEL CALENDARIO");
+                    gestion();
                     System.out.println("1. Ver todas las actividades registradas");
                     System.out.println("2. Añadir/modificar notas a actividad existente");
                     System.out.println("3. Ver actividades por proximidad");
@@ -1158,6 +1244,7 @@ public class ProyectoFinal
                 case 4:
                     continuar = false;
                     System.out.println("Saliendo del Módulo Calendario....");
+                    limpiarPantalla();
                     break;
 
                 default:
@@ -1302,7 +1389,7 @@ public class ProyectoFinal
 
     public static void limpiarPantalla()
     {
-        for (int i = 0; i < 50; i++)
+        for (int i = 0; i < 5; i++)
         {
             System.out.print("\n");
         }
@@ -1400,4 +1487,5 @@ public class ProyectoFinal
         LocalDate hoy = LocalDate.now();
         return hoy.getDayOfWeek().getValue();
     }
+
 }
